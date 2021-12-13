@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 5rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
+.pro {
+  text-decoration: underline;
+}
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud, .bottom-cloud {
+  width: 20%;
+  position: absolute;
+}
+
+.top-cloud {
+  top: 25px;
+  left: 50px;
+}
+
+.bottom-cloud {
+  bottom: 300px;
+  right: 50px;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 18.75rem;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+  padding: 50px auto;
+}
+
+.profile-img {
+  width: 12.5%;
+}
+.skill-pizza {
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+
+.skill-code {
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+}
+
+.skills {
+  padding-bottom: 150px;
+}
